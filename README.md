@@ -4,11 +4,15 @@ This is a simple way to create css for multiple web projects. Compass is used, a
 
 If you do not need to tweak your css styles very often, and do not want each project to depend on ruby and compass, this may work for you.
 
+## Limitations
 Currently, this repository only supports a single, yet mostly convential, directory structure.  CSS files are to be located in the ```assets/stylesheets``` directory, with the bootstrap and font-awesome icons located in the ```assets/fonts``` directory.  The ```assets/fonts``` directory layout should look the same as the layout in this repository.
 
-I plan to update the configuration in the future to make this more flexible.
+Also, apparently due to how compass works, css files will be created in the ```assets/stylesheets``` directory in this repository, which probably will not be needed.  This is not a show stopper, yet a pesky bit of ugliness.
 
-TODO:
+
+## TODO
+
+I plan to update the configuration in the future to make this more flexible.
 
 - Use a common ```partials/``` directory.
 
