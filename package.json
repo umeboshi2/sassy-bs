@@ -1,0 +1,26 @@
+{
+  "name": "sassy-bs",
+  "version": "0.1.0",
+  "description": "bootstrap and fontawesome for mulitiple projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umeboshi2/sassy-bs.git"
+  },
+  "author": "Joseph Rawson",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/umeboshi2/sassy-bs/issues"
+  },
+  "homepage": "https://github.com/umeboshi2/sassy-bs#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-coffee": "^2.3.4",
+    "gulp-compass": "^2.1.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-size": "^2.1.0"
+  }
+}
