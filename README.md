@@ -23,4 +23,43 @@ I plan to update the configuration in the future to make this more flexible.
   paths, using the "assets" layout as default.
   
   
-  
+## Instructions
+
+- Clone the repository
+
+	```git clone https://github.com/umeboshi2/sassy-bs.git```
+
+- Install dependencies
+
+	```sh
+	cd sassy-bs
+	bundle install
+	npm install
+	```
+- Create project file
+
+	Here is an example object that is needed by gulp to direct the 
+	compass compiler:
+
+	```json
+	{
+		"proj1": {
+			"css": "/freespace/home/umeboshi/workspace/proj1/assets/stylesheets"
+		},
+		"proj2": {
+			"css": "/freespace/home/umeboshi/workspace/proj2/assets/stylesheets"
+		}
+	}
+	```
+
+	The gulpfile performs ```require("./projects");```js to get the 
+	configuration.  The projects file can be ```'.js', '.json', or 
+	'.coffee'```.  The files should be resolved in such order 
+	by ```require``.  If using a module for configuration, the exported 
+	object should conform to the JSON output above.
+
+- Create stylesheets for a project:
+
+	``` gulp --proj1``` where (proj1) is one of the properties of the 
+	exported object defined in ```./projects```.
+	
