@@ -18,7 +18,7 @@ if Object.keys(options).length == 0 && options.constructor == Object
 try
   config = require './projects'
 catch err
-  console.log "A projects config file needs to be created (projects.json, projects.js, or projects.coffee)."
+  console.log "A projects config file needs to be created (projects.json, projects.js, or projects.coffee)." # noqa
   config = {}
   # destroy options
   options = {}
@@ -42,8 +42,6 @@ gulp.task 'projects', () ->
     .pipe size()
     .pipe gulp.dest config[proj].css
     
-
-
 gulp.task 'default', ->
   gulp.start 'projects'
   
