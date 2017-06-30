@@ -1,14 +1,9 @@
-source 'https://rubygems.org'
+# frozen_string_literal: true
+source "https://rubygems.org"
 
-gem 'sass'
+# gem "rails"
+gem 'bootstrap', '~> 4.0.0.alpha6'
 gem 'compass'
-gem 'breakpoint'
-gem 'normalize-scss'
-gem 'susy'
-gem 'modular-scale'
-gem 'sass-css-importer'
-gem 'fontcustom'
-gem 'sassy-buttons'
-gem 'bootstrap-sass'
-gem 'compass-ui'
 gem 'font-awesome-sass'
+gem 'susy'
+gem 'sassy-buttons'

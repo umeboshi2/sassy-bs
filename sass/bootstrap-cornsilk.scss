@@ -1,19 +1,20 @@
 @import "partials/themes/cornsilk";
-@import "partials/themes/bootstrap-basic";
+//@import "partials/themes/bootstrap-basic";
 
+// Import custom Bootstrap variables
 @import "bootstrap-variables";
+// Import Bootstrap
+@import "bootstrap";
 
-//$background-color: darken($primary-color, 10%);
-//$navbar-default-bg:                darken($background-color, 10%);
-//$navbar-default-border:            darken($navbar-default-bg, 6.5%);
-//$navbar-default-border: $secondary-color;
-
-@import "bootstrap-styles";
+// or Import Bootstrap Flex
+// @import "bootstrap-flex";
+// or Import Bootstrap Grid
+// @import "bootstrap-grid";
+// or Import Bootstrap Reboot
+// @import "bootstrap-reboot";
 
 @import "partials/listviews";
 @import "partials/hubby";
 @import "partials/fc-small";
 
-//.navbar-default {
-//    border-width: 0.2em;
-//}
+
