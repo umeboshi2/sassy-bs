@@ -63,3 +63,15 @@ I plan to update the configuration in the future to make this more flexible.
 	``` gulp --proj1``` where (proj1) is one of the properties of the 
 	exported object defined in ```./projects```.
 	
+
+
+- Google fonts
+
+	- https://google-webfonts-helper.herokuapp.com/api/fonts/architects-daughter?download=zip&subsets=latin&variants=regular
+	
+	- https://google-webfonts-helper.herokuapp.com/api/fonts/rambla?download=zip&subsets=latin&variants=700,regular,italic
+	
+	- https://google-webfonts-helper.herokuapp.com/api/fonts/source-sans-pro?download=zip&subsets=latin&variants=600,700,regular,italic
+	
+	- https://google-webfonts-helper.herokuapp.com/api/fonts/play?download=zip&subsets=latin&variants=700,regular
+	

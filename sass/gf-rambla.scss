@@ -1,0 +1,39 @@
+/* rambla-regular - latin */
+@font-face {
+  font-family: 'Rambla';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/rambla-v4-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Rambla'), local('Rambla-Regular'),
+       url('../fonts/rambla-v4-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/rambla-v4-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/rambla-v4-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/rambla-v4-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/rambla-v4-latin-regular.svg#Rambla') format('svg'); /* Legacy iOS */
+}
+/* rambla-700 - latin */
+@font-face {
+  font-family: 'Rambla';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/rambla-v4-latin-700.eot'); /* IE9 Compat Modes */
+  src: local('Rambla Bold'), local('Rambla-Bold'),
+       url('../fonts/rambla-v4-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/rambla-v4-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/rambla-v4-latin-700.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/rambla-v4-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/rambla-v4-latin-700.svg#Rambla') format('svg'); /* Legacy iOS */
+}
+/* rambla-italic - latin */
+@font-face {
+  font-family: 'Rambla';
+  font-style: italic;
+  font-weight: 400;
+  src: url('../fonts/rambla-v4-latin-italic.eot'); /* IE9 Compat Modes */
+  src: local('Rambla Italic'), local('Rambla-Italic'),
+       url('../fonts/rambla-v4-latin-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/rambla-v4-latin-italic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/rambla-v4-latin-italic.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/rambla-v4-latin-italic.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/rambla-v4-latin-italic.svg#Rambla') format('svg'); /* Legacy iOS */
+}
