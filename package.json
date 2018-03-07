@@ -17,10 +17,13 @@
   },
   "homepage": "https://github.com/umeboshi2/sassy-bs#readme",
   "devDependencies": {
+    "coffeescript": "^2.0.3",
     "gulp": "^3.9.1",
     "gulp-coffee": "^2.3.4",
     "gulp-compass": "^2.1.0",
     "gulp-minify-css": "^1.2.4",
-    "gulp-size": "^2.1.0"
+    "gulp-size": "^2.1.0",
+    "gulp-util": "^3.0.8",
+    "minimist": "^1.2.0"
   }
 }

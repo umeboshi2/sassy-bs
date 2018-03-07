@@ -44,4 +44,21 @@ gulp.task 'projects', () ->
     
 gulp.task 'default', ->
   gulp.start 'projects'
+ 
+gulp.task 'compass', ->
+  gulp.src './sass/*.scss'
+  .pipe compass
+    task: 'watch'
+    config_file: './config.rb'
+    css: 'assets/stylesheets'
+    sass: 'sass'
+  .on 'error', (error) ->
+    console.log error
+    @emit 'end'
+  .pipe size()
+
+
+      
   
+gulp.task 'watch', ->
+  gulp.watch ['./sass/**/*.scss'], ['compass']
